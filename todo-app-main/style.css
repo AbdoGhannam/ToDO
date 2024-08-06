@@ -226,6 +226,10 @@ ul li:hover .remove {
   }
   body.theme--2 .background {
     background: url("images/bg-mobile-dark.jpg") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    transition: all 0.3s;
   }
   .app {
     width: 90%;
